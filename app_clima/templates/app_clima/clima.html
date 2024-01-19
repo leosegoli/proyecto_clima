@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado del Clima</title>
+</head>
+<body>
+    <h1>Clima en {{ ciudad }}</h1>
+    <p>Temperatura: {{ temperatura }} °C</p>
+    <p>Descripción: {{ descripcion }}</p>
+    <a href="{% url 'index' %}">Volver a consultar</a>
+</body>
+</html>
