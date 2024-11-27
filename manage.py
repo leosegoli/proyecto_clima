@@ -3,7 +3,7 @@
 import os
 import sys
 
-
+#! comentario para commit
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'proyecto_clima.settings')
